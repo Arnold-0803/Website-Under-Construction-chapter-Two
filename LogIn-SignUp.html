@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.welcome.com</title>
+    <link rel="stylesheet" href="mystyle.LogIn-SignUp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&family=Rubik+Marker+Hatch&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="header">
+        <h2>ArnoldKiritu Inc.</h2>
+        <nav id="navigation-bar">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+
+    <div id="wrapper">
+        <div class="form-box login">
+            <h2>Log In</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span><ion-icon name="mail-outline"></ion-icon></span>
+                    <input class="login-email" type="email" required>
+                    <label>E-Mail</label>
+                </div>
+                <div class="input-box">
+                    <span><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input class="login-password" type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="show-remember">
+                    <label><input type="checkbox">Show password</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button class="login-button" type="submit">LogIn</button>
+                <div class="create-account">
+                    <p>Don't have account? <a class="signup-link" href="#">Signup</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box signup">
+            <h2>Sign Up</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span><ion-icon name="person-outline"></ion-icon></span>
+                    <input class="user-name" type="text" required>
+                    <label>userName</label>
+                </div>
+                <div class="input-box">
+                    <span><ion-icon name="mail-outline"></ion-icon></span>
+                    <input class="user-email" type="email" required>
+                    <label>E-Mail</label>
+                </div>
+                <div class="input-box">
+                    <span><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input class="user-password" type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="show-remember">
+                    <label><input type="checkbox">Accept to the terms and conditions</label>
+                    <a href="#">Read terms</a>
+                </div>
+                <button class="signup-button" type="submit">SignUp</button>
+                <div class="create-account">
+                    <p>Already have an account? <a class="login-link" href="#">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="home-page">
+        <h1>Lobby</h1>
+        <div class="lobby">
+            <button type="button">Our customer's portal CLICK</button>
+            <button type="button">Our Partner's portal CLICK</button>
+        </div>
+        <div class="content">
+            <h3>Our Mission</h3>
+            <p>Our cire mission is to explore into the digital space and develop innovetive ideas that would spearhead
+                and spur our digital economy.
+                This came at a time when the region and the entire globe is in dire need and enthusiastic to digitize
+                services in diverse fields. <br><br>
+                Nnevertheless sooner or later we will realise that the future of jobs lies in technology, and therefore
+                young peopleare urged to take part
+                in embracing modren methods of conducting activities through digital platforms, there is use to start
+                adopting various ways in the field of
+                technology in which they will help us in the solving our daily today problems and pass trhis culture
+                from this generation to next. <br><br>
+                Digital economy intends success in the betterment of the country's economy, the world and even community
+                as well as individual level.
+                Let us all join hands, accept and champion digital space for changes and future is inevitable.
+
+
+            </p>
+            <h3>Vision</h3>
+            <p>We project to create a vivid realisation/intimacy of potential that is held in this organisation and even
+                individual level. This capacity of which we held in our ability
+                will capacitate us to achive and atain goals beyond our imagination and safeguard our future.
+            </p>
+            <button class="logout" type="button">LogOut</button>
+        </div>
+
+        <script src="arnold-login-signup.js" type="module"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
